@@ -1,0 +1,24 @@
+/* 
+basanta pokhrel
+portfolio links hover */
+
+*{
+    background-color: black;
+}
+.header-text{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: orangered;
+}
+.paragraph{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    text-align: center;
+    color: orangered;
+    
+}

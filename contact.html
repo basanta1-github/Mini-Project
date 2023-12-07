@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/03d4c73dca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style2.css">
+    <title>Contact</title>
+</head>
+<body>
+   <main>
+    
+    <div class="headertext">
+        <h1>Contact Me</h1>
+         <div class="icons">
+            <i class="fa-regular fa-envelope"><span>  pokhrelb246@gmail.com</span></i> <br>
+            <i class="fa-solid fa-phone"><span>  +1 437 450 2061</span></i>
+        </div> 
+
+         
+    </div>
+   
+    <div class="contact">
+        <img src="./basanta.jpg" alt="">
+        <!-- -----------------------------------------inserting logos an icons-------------------------------- -->
+        <div class="icons">
+            <a href="https://www.facebook.com/settings?tab=account&section=username"><i class="fa-brands fa-square-facebook"></i></a>
+            <a><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-linkedin"></i></a>
+            <a><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+
+    <!-- --------------------------------------this is forms that goes to php ------------------------ -->
+    <div class="form">
+        <form action="contactforms.php" method="POST">
+            <input type="text" name="name" placeholder="enter your name" required>
+            <input type="email" name="email" placeholder="enter your mail id" required>
+            <textarea name="Message" cols="30" rows="10" placeholder="enter your Message" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+        
+   </main>
+    <footer>
+        <p>CodeWithMistey  |  Copyright &#169; CodeWithMistey.com Made by Basanta</p> 
+    </footer>
+</body>
+</html>

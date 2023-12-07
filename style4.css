@@ -1,0 +1,108 @@
+/* 
+basanta pokhrel
+about section
+ */
+
+nav .navigation li {
+    list-style: none;
+}
+
+nav li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 35px;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: orangered;
+    position: absolute;
+    left: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 60%;
+}
+
+nav ul p a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 30px;
+    float: left;
+    margin-top: -13px;
+    color: white;
+}
+
+nav ul p a span {
+    color: orangered;
+}
+
+header nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+.navigation {
+    /* background-color:#0B1724; */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.icons {
+    float: right;
+    margin-top: -32px;
+    color: white;
+    margin-right: 100px;
+}
+
+.icons i {
+    padding-right: 20px;
+}
+.headertext{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+}
+.about p{
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.image{
+    display: flex;
+}
+.image img{
+    width: 500px;
+    height: 400px;
+}
+ul li span{
+    font-size: 30px;
+    font-family: cursive;
+    color: orangered;
+}
+ul li{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: orangered;
+    
+}

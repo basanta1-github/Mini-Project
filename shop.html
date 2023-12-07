@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/03d4c73dca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style3.css">
+    <title>Shop Now</title>
+</head>
+<body>
+    <nav>
+        <!-- ------------------------------------------------------navigation------------------------------------------------- -->
+        <div class="navigation">
+
+
+            <ul>
+                <p><a href="index.html"><span>4</span>music<span>.</span></a></p>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </nav>
+
+<!--------------------------------------------------------------------- adding close side bar and add  to cart --------------------------------------------- -->
+    <div id="sidebar">
+        <a href="#" onclick="closeSidebar()">&#10007;</a>
+        <div id="selectedItem">Selected Item</div>
+        <div id="totalDisplay">Total $0</div>
+    </div>
+
+    <div class="shop2">
+        <div class="headerc">
+            <h1>Order All You Want</h1>
+            <p>Sale Sale Sale....!!! 60% off on oldest instruments</p>
+        </div>
+        <div class="container">
+            
+            <div class="cart">
+                <img src="./serpent.jpeg" alt="" >
+                <h2>serpent</h2>
+                <h2>$250</h2>
+
+
+                <button onclick="openSideBar()" >Add to cart</button>
+            </div>
+
+
+            <div class="cart">
+                <img src="./Tutankhamuns-Trumpets.jpg" alt="">
+                <h2>Tutankhamun’s Trumpets</h2>
+                <h2>$150</h2>
+
+
+                <button onclick="openSideBar()">Add to cart</button>
+            </div>
+
+
+            <div class="cart">
+                <img src="./Diveje-Babe-Flute.jpg" alt="">
+                <h2>Diveje-Babe-Flute</h2>
+                <h2>$280</h2>
+
+
+                <button onclick="openSideBar()">Add to cart</button>
+            </div>
+
+
+            <div class="cart">
+                <img src="./Rauschpfeife.jpg" alt="">
+                <h2>Rauschpfeife</h2>
+                <h2>$250</h2>
+
+
+                <button onclick="openSideBar()">Add to cart</button>
+            </div>
+
+            <div class="cart">
+                <img src="./sherwood shire.jpeg" alt="" height="400px" width="400px">
+                <h2>Sherwood Shire</h2>
+                <h2>$550</h2>
+
+
+                <button onclick="openSideBar()">Add to cart</button>
+            </div>
+
+
+            <div class="cart">
+                <img src="./nuccin.jpeg" alt="">
+                <h2>Buccin</h2>
+                <h2>$250</h2>
+
+
+                <button onclick="openSideBar()">Add to cart</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------footer ---------------------------------------------------- -->
+    <footer>
+        <p>CodeWithMistey  |  Copyright &#169; CodeWithMistey.com Made by Basanta</p> 
+    </footer>
+    <script src="./shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,502 @@
+/* ----------------------------this is navigation section------------------------------------------- */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+.background {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    margin-top: -600px;
+}
+
+nav .navigation li {
+    list-style: none;
+}
+
+nav li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 35px;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: orangered;
+    position: absolute;
+    left: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    transition: 1s;
+}
+
+nav ul li a:hover::after {
+    width: 60%;
+}
+
+nav ul p a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 30px;
+    float: left;
+    margin-top: -13px;
+    color: white;
+}
+
+nav ul p a span {
+    color: orangered;
+}
+
+header nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+.navigation {
+    /* background-color:#0B1724; */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.icons {
+    float: right;
+    margin-top: -32px;
+    color: white;
+    margin-right: 100px;
+}
+
+.icons i {
+    padding-right: 20px;
+}
+
+/* ----------------------------------this is header text below navigation----------------------------------------------------- */
+#header-text {
+    margin-top: 13%;
+    margin-left: 5%;
+}
+
+#header-text h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#header-text h2 {
+    content: '';
+    width: 10%;
+    height: 3px;
+    background-color: orangered;
+    /* margin-bottom: -20px; */
+}
+
+#header-text p span {
+    color: orangered;
+    font-size: 20px;
+}
+
+.button1 {
+
+    margin-left: 85px;
+    display: inline;
+    bottom: 10px;
+
+}
+
+.button1 a {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+}
+
+/* ----------------------------------------------About section--------------------------------------------- */
+
+.box {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    height: 700px;
+    /* box-sizing: border-box; */
+    border: 10px solid white;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 40px;
+}
+.background2{
+    background-color: white;
+}
+
+.class1 {
+    /* border: 1px solid black; */
+    width: 200%;
+    height: 600px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.class2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.class3 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    margin-right: 300px;
+    padding: 10px;
+}
+
+/* .box1{
+    display: block;
+    height: 575px;
+} */
+.box p {
+    color: orangered;
+}
+
+/* ----------------------------------------------------------------------portfolio page------------------------------------------------------- */
+.head {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.head p {
+    color: orangered;
+}
+
+.boxp {
+    width: 80%;
+    display: flex;
+    margin-left: 250px;
+}
+
+.class1p {
+    padding: 10px;
+}
+
+.class2p {
+    padding: 10px;
+}
+
+.class3p {
+    padding: 10px;
+}
+
+.class4p {
+    padding: 10px;
+}
+
+.boxp p span {
+    color: orangered;
+
+}
+
+.boxp img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --------------------------------------------------this is css for second portfolio page----------------------------------- */
+
+
+.portfolio2 {
+    display: flex;
+    width: 100%;
+}
+
+.portfolio2 img {
+    /* margin-top: 10%; */
+    height: 500px;
+    width: 500px;
+}
+
+/* ------------------------------------------this is css for remaining about section-------------------------------------- */
+
+.aboutRem {
+    margin-top: 150px;
+    width: 75%;
+    margin-left: 200px;
+}
+.aboutRem h1{
+    color: orangered;
+    text-align: center;
+}
+
+.boxheader {
+    display: flex;
+    margin-right: 10px;
+}
+.boxheader p{
+    margin-right: 20px;
+}
+
+.boxheader img {
+    border-radius: 100px;
+}
+
+.imgab img {
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+/*  *************************************---------------------------------shop section-------------************************** */
+.imageop img {
+    width: 300px;
+    height: 400px;
+}
+
+.shop {
+    width: 60%;
+    display: flex;
+    margin-left: 19%;
+    margin-top: 200px;
+}
+
+.headerop h1 {
+    font-family: cursive;
+}
+
+.headerop h3 {
+    color: grey;
+    /* content: "";
+    width: 4%;
+    height: 2px;
+    background: grey;
+    position: absolute;
+    display: inline; */
+}
+
+.headerop h3 span {
+    color: orangered;
+}
+
+.headerop h4 {
+    color: green;
+}
+
+.headerop .button button {
+    background-color: orangered;
+    display: inline;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.headerop .button {
+    align-items: center;
+    float: right;
+    margin-right: 200px;
+}
+
+.headerop p {
+    text-align: center;
+}
+
+.headerop {
+    margin-left: 50px;
+}
+
+/* --------------------------------***********************contact section**************************--------------------------------- */
+
+.contact{
+    /* background-color: black; */
+    /* color: white; */
+    display: inline-block;
+    margin-top: 150px;
+    align-items: center;
+    /* background-color: grey; */
+}
+.contact h1{
+    text-align: center;
+}
+.contact .icons{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    margin-top: 270px;
+    float: left;
+    margin-left: 550px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.contact img{
+    height: 5%;
+    width: 15%;
+    border-radius: 300px;
+    margin-left: -350px;
+
+}
+/*  ************************-------------------------------------this is css for footer ------------------------------------*********************/
+footer{
+    text-align: center;
+    color: orangered;
+    
+}
+.icons i:hover{
+    color: orangered;
+    margin-top: 3px;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+/*  this is css for contact section */
+.contact button{
+    margin-left: -140px;
+    position: absolute;
+    margin-top: 220px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.contact button a{
+    text-decoration: none;
+    color: white;
+}
+.icons a{
+    color: white;
+}
+
+
+
+
+/* **************************************************------------------------ this is css for side bar after clicking on add to cart ********************--------------------*/
+
+#sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#sidebar a{
+    color:wheat;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -60px;
+    position: absolute;
+    font-size: 40px;
+}
+#sidebar a:hover{
+    color: orangered;
+}
+
+/* *******************************************--------------------------------- this is css for back to top button ------------------------------------******************/
+.backtotop button{
+    background-color: white;
+    border-radius: 1000px;
+    text-decoration: none;
+    border: 3px solid orangered;
+    float: right;
+    /* position: absolute; */
+    /* position: fixed; */
+    /* z-index: -1; */
+    scroll-behavior: smooth;
+    font-size: 30px;
+}
+.backtotop a{
+    text-align: center;
+    text-decoration: none;
+    color: orangered;
+}
+.backtotop a:hover{
+    color: azure;
+}
+.backtotop button:hover{
+    background-color: orangered;
+}
+
+
+/* **********************************-------------------------------this is css for hover of mouse on portfolio section-------------------------************************ */
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+    width: auto;
+}
+.layer{
+    width: 80%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), orangered);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.layer a{
+    margin-top: 20px;
+    color: orangered;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden
+}
+.work img{
+    width:100%;
+   border-radius: 10px;
+   display: block;
+   margin-top: -100px;
+   transition:transform 0.5s ;  
+}
